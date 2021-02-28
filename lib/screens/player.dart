@@ -15,7 +15,7 @@ class _PlayerState extends State<Player> {
   AudioPlayer _audioPlayer;
   List<String> audioFiles;
   List<AudioSource> myList = [
-    AudioSource.uri(Uri.parse("asset:///audio/book/guard.mp3")),
+    AudioSource.uri(Uri.parse("asset:///audio/book/John Grisham.mp3")),
   ];
   @override
   void initState() {
